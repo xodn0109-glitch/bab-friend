@@ -1,6 +1,7 @@
 // 1. 전 교사 월~금 4교시 수업 유무 데이터
 const weeklySchedule = {
   "구다희": [false, true, false, true, false],
+  "강지훈": [false, true, true, true, true],
   "기술가정대체": [true, true, true, false, true],
   "김금나": [true, true, true, false, false],
   "김미현": [false, false, true, true, false],
@@ -15,8 +16,8 @@ const weeklySchedule = {
   "김향미": [false, false, false, false, false],
   "김현지": [false, false, true, true, false],
   "고혜미": [false, false, false, false, false],
+  "고윤": [false, false, true, true, true],
   "김형욱": [true, false, true, true, false],
-  "김형미": [false, false, false, false, false],
   "김혜란": [true, true, false, false, true],
   "남수정": [false, false, true, true, false],
   "박범직": [false, false, true, true, true],
@@ -48,6 +49,7 @@ const weeklySchedule = {
   "이태우": [true, false, true, false, true],
   "이후민": [false, false, false, false, false],
   "임수진": [true, false, true, true, false],
+  "장미경": [false, false, false, false, false],
   "전선영": [false, false, false, false, false],
   "정광윤": [true, false, false, false, false],
   "정한별": [true, false, false, false, false],
@@ -70,30 +72,30 @@ const departmentData = [
   },
   {
     department: "🌳 2학년부",
-    members: ["김형욱", "황세은", "홍지선", "정광윤", "정한별", "구다희", "김보영", "최태석", "조다은", "심지혜"]
+    members: ["정광윤", "김형욱", "황세은", "정한별", "구다희", "김보영", "최태석", "조다은", "심지혜", "홍지선"]
   },
   {
     department: "🎓 3학년부",
-    members: ["신예서", "오미영", "배재열", "최유빈", "유하경", "박진영", "남수정", "임수진", "한만규", "오슬빈", "김혜란", "윤지수", "김예승"]
+    members: ["강지훈", "신예서", "오슬빈", "오미영", "배재열", "최유빈", "김혜란", "유하경", "박진영", "남수정", "윤지수", "임수진", "김예승"]
   },
   {
     department: "📂 교무지원센터",
-    members: ["서지연", "윤현정", "이영재", "김미현", "최민호", "이태우", "김소연", "황수연", "김민지", "나리원", "김다영"]
+    members: ["서지연", "윤현정", "황수연", "김민지", "김소연", "최민호", "이태우", "이영재", "김미현"]
   },
   {
-    department: "💡 미래역량강화부",
-    members: ["김금나", "변은진", "박현경", "신예원", "유진영", "김향미"]
+    department: "💡 미래평생진로부",
+    members: ["김금나", "신예원", "박현경", "변은진", "유진영", "장미경"]
   },
   {
-    department: "🛡️ 학생생활안전부",
+    department: "🥊 학생생활안전부",
     members: ["이주현", "연서우", "오용준", "박소담"]
   },
   {
     department: "💻 교육정보부",
-    members: ["이지원", "고윤", "박종민"]
+    members: ["이지원", "고윤"]
   },
   {
-    department: "👟 체육실",
+    department: "👟 체육부",
     members: ["김우현"]
   }
 ];
