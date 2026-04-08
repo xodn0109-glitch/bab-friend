@@ -14,6 +14,7 @@ const weeklySchedule = {
   "김태완": [true, true, false, false, false],
   "김향미": [false, false, false, false, false],
   "김현지": [false, false, true, true, false],
+  "고혜미": [false, false, false, false, false],
   "김형욱": [true, false, true, true, false],
   "김형미": [false, false, false, false, false],
   "김혜란": [true, true, false, false, true],
@@ -65,7 +66,7 @@ const weeklySchedule = {
 const departmentData = [
   {
     department: "🍎 1학년부",
-    members: ["김인경", "조영욱", "김채민", "배재열", "박범직", "서정은", "김태완", "한홍비", "이상직", "박상희", "조수진"]
+    members: ["서정은", "김인경", "조영욱", "김태완", "김채민", "김현지", "고혜미", "이상직", "박상희", "박범직", "조수진"]
   },
   {
     department: "🌳 2학년부",
